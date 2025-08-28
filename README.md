@@ -1,48 +1,53 @@
 # 🎶 System Sound Prank 🎶
-A fun little prank to replace your system's device connect and disconnect sounds with custom .wav files.
 
-⚠️ Warning: This script modifies system sound settings. It's intended for fun but use it responsibly and make sure you have permission to modify the target computer.
+A fun little prank to replace your system's device connect and disconnect sounds with custom `.wav` files.
 
-📁 Repository Contents
-set_sounds.bat: The main script that replaces the system sounds.
+**⚠️ Warning:** This script modifies system sound settings. It's intended for fun but use it responsibly and make sure you have permission to modify the target computer.
 
-reset.bat: The script to revert the changes and restore the original sounds.
+## 📁 Repository Contents
 
-connect.wav: The custom sound file for the device connect event.
+* `set_sounds.bat`: The main script that replaces the system sounds.
 
-disconnect.wav: The custom sound file for the device disconnect event.
+* `reset.bat`: The script to revert the changes and restore the original sounds.
 
-README.md: This file.
+* `connect.wav`: The custom sound file for the device connect event.
 
-🚀 How to Use
-Step 1: Clone the Repository
-To ensure the scripts work correctly, please clone this repository directly to your C drive using the following command:
+* `disconnect.wav`: The custom sound file for the device disconnect event.
 
-git clone https://github.com/kumar-shaurya/device_connect_prank.git C:\device_connect_prank
+* `README.md`: This file.
 
-Step 2: Prepare the Files
-Navigate to the C:\device_connect_prank folder.
+## 🚀 How to Use
 
-Make sure the .wav files are named exactly connect.wav and disconnect.wav.
+### Step 1: Clone the Repository
 
-Step 3: Run the Prank
-Simply double-click set_sounds.bat.
+To ensure the scripts work correctly, please clone this repository **directly to your C drive** using the following command:
 
-A command prompt window will briefly flash as the script runs.
+### Step 2: Prepare the Files
 
-The system sounds for "Device Connected" and "Device Disconnected" will now play your custom sounds.
+1. Navigate to the `C:\device_connect_prank` folder.
 
-Step 4: Enjoy the Prank!
+2. Make sure the `.wav` files are named exactly `connect.wav` and `disconnect.wav`.
+
+### Step 3: Run the Prank
+
+1. Simply double-click `set_sounds.bat`.
+
+2. A command prompt window will briefly flash as the script runs.
+
+3. The system sounds for "Device Connected" and "Device Disconnected" will now play your custom sounds.
+
+### Step 4: Enjoy the Prank!
+
 Now, whenever a USB device is plugged in or unplugged, your custom sounds will play.
 
-🔄 How to Reset the Sounds
-To return the system sounds to their original state, just double-click reset.bat. This will restore the default Windows sounds for these events.
+## 🔄 How to Reset the Sounds
 
-Note: The reset.bat file is crucial for a good prank—and for good manners! Don't forget to run it afterward to restore the original system sounds.
+To return the system sounds to their original state, just double-click `reset.bat`. This will restore the default Windows sounds for these events.
 
-📝 Troubleshooting
-"The system cannot find the file specified.": Make sure that all the .bat and .wav files are in the correct directory (C:\device_connect_prank).
+**Note:** The `reset.bat` file is crucial for a good prank—and for good manners! Don't forget to run it afterward to restore the original system sounds.
 
-No sound after running the script?: Check that your custom .wav files are not corrupted and are correctly named.
+## 📝 Troubleshooting
 
-<br>
+* **"The system cannot find the file specified."**: Make sure that all the `.bat` and `.wav` files are in the correct directory (`C:\device_connect_prank`).
+
+* **No sound after running the script?**: Check that your custom `.wav` files are not corrupted and are correctly named.
